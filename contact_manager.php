@@ -14,6 +14,10 @@ while (true) {
     $option = trim(fgets(STDIN));
     switch ($option) {
         case 1:
+            if ($name_01 != "" && $name_02 != "") {
+                echo "Contact list is full.\n";
+                break;
+            };
             if ($name_01 == "") {
                 echo "Adding first contact.\n";
             } elseif ($name_02 == "") {
