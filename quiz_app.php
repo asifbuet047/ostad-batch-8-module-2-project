@@ -1,7 +1,7 @@
 <?php
 
 $score = 0;
-echo "Welcome to the Quiz App!\n";
+echo "------Welcome to the Quiz App!------\n";
 echo "First, question: What is the capital of France?\n";
 echo "1. Berlin\n";
 echo "2. Madrid\n";
